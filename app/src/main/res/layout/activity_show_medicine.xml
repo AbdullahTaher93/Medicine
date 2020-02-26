@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowMedicine"
+    android:orientation="vertical"
+    >
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:layout_gravity="center_horizontal"
+       android:padding="10dp"
+
+       >
+    <TextView
+        android:id="@+id/text"
+        android:text="TextToSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+
+        >
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:text="اضغط للبحث عن الدواء"
+        android:onClick="showdata"
+        />
+</LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="right"
+       >
+
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="اسم الدواء"
+
+       />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="right"
+           android:background="#F1F1E9"
+           android:id="@+id/medicineName"
+
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ما هو دواء اسيتالوبرام "
+
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#F1F1E9"
+           android:id="@+id/medicineDes"
+
+
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=" تعليمات "
+
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#F1F1E9"
+
+           android:id="@+id/medicineStat"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="تحذيرات  "
+
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#F1F1E9"
+           android:id="@+id/medicineWarnings"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="تأثيرات جانبية  "
+
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#F1F1E9"
+
+           android:id="@+id/medicineSideEffects"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="الأسماء التجارية  "
+
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#F1F1E9"
+           android:id="@+id/medicineTradeName"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="تفاعلات الدواء  "
+
+
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#F1F1E9"
+
+           android:id="@+id/medicineDrugInteraction"
+
+           />
+
+   </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
